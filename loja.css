@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #efdae2;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url(eudoraniina.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 1500px;
+    height: 400px;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    background-image: url('letra.png');
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.products {
+    padding: 20px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 16px;
+    color: #e74c3c;
+    margin: 10px 0;
+}
+
+.product-card button {
+    background-color: #d42a82;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product-card button:hover {
+    background-color: #da5499;
+}
+
+footer {
+    background-color: #d42a82;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
